@@ -71,7 +71,7 @@ public class RandomUtils {
     }
 
     public static String getRandomPhone() {
-        return "921" + getRandomLong(1111111L, 9999999L) + "";
+        return "+38097" + getRandomLong(1111111L, 9999999L) + "";
     }
 
     public static Long getRandomLong(Long min, Long max) {
